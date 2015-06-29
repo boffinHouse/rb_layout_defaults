@@ -1,0 +1,21 @@
+{
+  "name": "rb_layout_defaults",
+  "description": "Default layout settings, helpers for RawBlock",
+  "version": "0.1.0",
+  "private": false,
+  "author": [
+    {
+      "name": "jeroen smit",
+      "email": "jeroen@boffinhouse.com",
+      "url": "http://github.com/j-smit"
+    },
+    {
+      "name": "Alexander Farkas",
+      "email": "alex@boffinhouse.com",
+      "url": "http://github.com/afarkas"
+    }
+  ],
+  "engines": {
+    "node": ">=0.11"
+  }
+}
