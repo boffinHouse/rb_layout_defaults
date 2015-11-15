@@ -60,6 +60,7 @@
 		$string: rb-stringify($data);
 		content: $string !important;
 		visibility: hidden !important;
+		overflow: hidden !important;
 		display: block !important;
 		height: 0 !important;
 		width: 100%;
