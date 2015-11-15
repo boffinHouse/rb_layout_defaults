@@ -15,7 +15,6 @@ html {
 body {
 	width: 100%;
 	margin: 0;
-	background: inherit;
 }
 
 * {
@@ -28,7 +27,14 @@ body {
 	box-sizing: inherit;
 }
 
-/** Text **/
+*:focus {
+	outline: none;
+}
+
+/* ---------------------------------------
+	TEXT-SELECTION
+
+--------------------------------------- */
 ::-moz-selection {
 	color: #fff;
 	text-shadow: none;
@@ -40,17 +46,6 @@ body {
 	background: #19469d;
 }
 
-/** Headers **/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-}
-
-/** Links **/
 a {
 	color: #19469d;
 	text-decoration: none;
@@ -65,25 +60,20 @@ a:focus {
 	outline-offset: 5px;
 }
 
-/** List **/
-ul,
-ol{
-	margin: 0;
-	list-style: none;
-	list-style-image: none;
-	padding: 0;
+
+/* ---------------------------------------
+	EMBEDDED CONTENT
+
+--------------------------------------- */
+img,
+video {
+	max-width: 100%;
+	display: block; //Removes extra space img
 }
 
-dl,
-dt,
-dd {
-	margin: 0;
+iframe {
+	border: none;
 }
-
-
-
-
-
 
 
 
